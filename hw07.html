@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    #logo {margin: 1%}
+    a {color: #1DDB16; font-weight: 800; text-decoration: none}
+    * {color: #ffffff}
+#wrap {background: #6799FF;width: 60%; margin-left: 20%;}
+body {background: #6799FF;
+    width:60%;
+    margin-left: 20%;}
+    img {width:60%;margin-left: 20%;}
+       #menu {
+/*        background-color: blue;*/
+        width: 100%;
+        height: 50px;
+        margin-left: 1%;
+    }
+    #menu a {
+        text-decoration: none;
+        width: 14%;
+        height: 30px;
+/*        background-color: aqua;*/
+        display:block;
+        float: left;
+        text-align: center;
+        margin-top: 13px;
+        padding-top: 7px;
+        color: #41FF3A;
+/*        border: solid 1px red;*/
+    }
+    #menu a:hover {
+        background: #41FF3A;
+        color: #111111;
+        
+    }
+    body {
+        width: 60%; 
+        margin-left: 20%;
+    }
+
+</style>
+<body>
+  <div id="wrap">   
+        <div id="header">
+            <div id="logo">
+                 <a href="index1.html">처음으로</a>
+            </div>
+            <div id="menu">
+                <a href="hw01.html" id="1">과제01</a>
+                <a href="hw02.html" id="2">과제02</a>
+                <a href="hw03.html" id="3">과제03</a>
+                <a href="hw04.html" id="4">과제04</a>
+                <a href="hw05.html" id="5">과제05</a>
+                <a href="hw06.html" id="6">과제06</a>
+                <a href="hw07.html" id="7">과제07</a>
+                <a href="portfolio.html" id="4">포폴</a>
+                <a href="profile.html" id="5">프로필</a>
+            </div>
+        </div>    
+        <br>
+        <br>
+        <br>
+   
+   <section id="section">
+    <div>
+        <br>
+        <h3>정보 제출</h3>
+        <br>
+        <form>
+            <table border="1" id="form">
+                <tr>
+                    <td>이름</td>
+                    <td> <input type="text" name="uid"><br></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password" name="upw"><br></td>
+                </tr>
+                <tr>
+                    <td>이메일</td>
+                    <td> <input type="email" name="email"></td>
+                </tr>
+                <tr>
+                   <td></td>
+                    <td>@<select name="cars" size="1">
+                            <option value="google">google.com</option>
+                            <option value="naver">naver.com</option>
+                            <option value="daum">daum.com</option>
+                            <option value="직접">직접입력</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>제목</td>
+                    <td><input type="text" name="text"></td>
+                </tr>
+                <tr>
+                    <td>내용</td>
+                    <td> <textarea name="message" rows="5" cols="40"></textarea></td>
+                </tr>
+            </table>
+            <table id="send">
+                <td><input type="submit" value="전송" id="send_1"> <input type="submit" value="재설정" id="send_2"> </td>
+            </table>
+        </form>
+    </div>
+</section>
+   
+    
+</body>
+</html>
